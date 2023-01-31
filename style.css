@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&family=Charmonman:wght@400;700&family=Dancing+Script:wght@400;600;700&family=Monoton&family=Mr+Dafoe&family=Mrs+Saint+Delafield&family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@400;500;700;900&family=Sofia+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Dancing;
+}
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background: url(https://picsum.photos/1200);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.banner .navbar{
+    margin-top: 2%;
+}
+
+.banner .font{
+    font-family: Charmonman;
+    color: #f00;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 5%;
+}
+
+.banner .nav{
+    margin-right: 2%;
+}
+
+.banner .nav li a{
+    color: #bdd;
+}
+
+.banner .info{
+    margin-top: 15%;
+    transform: translateY(-15%);
+}
+
+.banner .info h1{
+    font-size: 3em;
+    font-weight: 700;
+    color: #f00;
+    letter-spacing: 2px;
+}
+
+.banner .info p{
+    color: #aaa;
+}
+
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff; 
+    background: #e91d43;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.banner .info a:hover{
+    background: #990a0a;
+    text-shadow: 2px 2px 10px black;
+}
